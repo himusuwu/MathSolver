@@ -1,5 +1,5 @@
-CMakeFiles/MathSolver.dir/src/main.cpp.o: \
-  /Users/dawid/MathSolver/src/main.cpp \
+CMakeFiles/MathSolver.dir/src/Lexer.cpp.o: \
+  /Users/dawid/MathSolver/src/Lexer.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -781,5 +781,4 @@ CMakeFiles/MathSolver.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/unistd.h \
   /Users/dawid/MathSolver/include/Lexer.h \
-  /Users/dawid/MathSolver/include/Token.h \
-  /Users/dawid/MathSolver/include/Parser.h
+  /Users/dawid/MathSolver/include/Token.h

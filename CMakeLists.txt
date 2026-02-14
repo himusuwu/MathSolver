@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.13)
 project(MathSolver)
 set(CMAKE_CXX_STANDARD 14)
 
-set(SOURCE_FILES src/main.cpp)
+set(SOURCE_FILES src/main.cpp src/Lexer.cpp src/Parser.cpp)
+
+include_directories(include)
 
 add_executable(MathSolver ${SOURCE_FILES})

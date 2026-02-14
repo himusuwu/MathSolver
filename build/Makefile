@@ -129,6 +129,54 @@ MathSolver/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MathSolver.dir/build.make CMakeFiles/MathSolver.dir/build
 .PHONY : MathSolver/fast
 
+src/Lexer.o: src/Lexer.cpp.o
+.PHONY : src/Lexer.o
+
+# target to build an object file
+src/Lexer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MathSolver.dir/build.make CMakeFiles/MathSolver.dir/src/Lexer.cpp.o
+.PHONY : src/Lexer.cpp.o
+
+src/Lexer.i: src/Lexer.cpp.i
+.PHONY : src/Lexer.i
+
+# target to preprocess a source file
+src/Lexer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MathSolver.dir/build.make CMakeFiles/MathSolver.dir/src/Lexer.cpp.i
+.PHONY : src/Lexer.cpp.i
+
+src/Lexer.s: src/Lexer.cpp.s
+.PHONY : src/Lexer.s
+
+# target to generate assembly for a file
+src/Lexer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MathSolver.dir/build.make CMakeFiles/MathSolver.dir/src/Lexer.cpp.s
+.PHONY : src/Lexer.cpp.s
+
+src/Parser.o: src/Parser.cpp.o
+.PHONY : src/Parser.o
+
+# target to build an object file
+src/Parser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MathSolver.dir/build.make CMakeFiles/MathSolver.dir/src/Parser.cpp.o
+.PHONY : src/Parser.cpp.o
+
+src/Parser.i: src/Parser.cpp.i
+.PHONY : src/Parser.i
+
+# target to preprocess a source file
+src/Parser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MathSolver.dir/build.make CMakeFiles/MathSolver.dir/src/Parser.cpp.i
+.PHONY : src/Parser.cpp.i
+
+src/Parser.s: src/Parser.cpp.s
+.PHONY : src/Parser.s
+
+# target to generate assembly for a file
+src/Parser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MathSolver.dir/build.make CMakeFiles/MathSolver.dir/src/Parser.cpp.s
+.PHONY : src/Parser.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -162,6 +210,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... MathSolver"
+	@echo "... src/Lexer.o"
+	@echo "... src/Lexer.i"
+	@echo "... src/Lexer.s"
+	@echo "... src/Parser.o"
+	@echo "... src/Parser.i"
+	@echo "... src/Parser.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

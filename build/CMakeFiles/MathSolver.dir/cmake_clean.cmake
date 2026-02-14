@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/MathSolver.dir/src/Lexer.cpp.o"
+  "CMakeFiles/MathSolver.dir/src/Lexer.cpp.o.d"
+  "CMakeFiles/MathSolver.dir/src/Parser.cpp.o"
+  "CMakeFiles/MathSolver.dir/src/Parser.cpp.o.d"
   "CMakeFiles/MathSolver.dir/src/main.cpp.o"
   "CMakeFiles/MathSolver.dir/src/main.cpp.o.d"
   "MathSolver"

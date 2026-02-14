@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/Users/dawid/MathSolver/include
 
 CXX_FLAGSarm64 = -std=gnu++14 -arch arm64
 
