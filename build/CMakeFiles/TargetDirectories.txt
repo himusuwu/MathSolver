@@ -1,0 +1,3 @@
+/Users/dawid/MathSolver/build/CMakeFiles/MathSolver.dir
+/Users/dawid/MathSolver/build/CMakeFiles/edit_cache.dir
+/Users/dawid/MathSolver/build/CMakeFiles/rebuild_cache.dir
